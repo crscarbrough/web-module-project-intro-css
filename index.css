@@ -84,7 +84,7 @@ td {
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 /* General Styles */
@@ -95,9 +95,12 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   color: #4f4f4f;
+  font-family: "Roboto Mono", monospace;
 }
 section {
   padding: 4% 0;
+  width: 90%;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
@@ -105,7 +108,7 @@ a {
 
 h1 {
   font-family: "Chelsea Market", cursive;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 /* Header Section Styles */
@@ -144,7 +147,6 @@ nav a {
 .left,
 .right {
   display: inline-block;
-  text-align: center;
 }
 .left {
   width: 30%;
@@ -158,4 +160,41 @@ nav a {
   margin-left: 5%;
   position: absolute;
   top: 45%;
+  text-align: center;
+  top: 110px;
+}
+
+/* Main */
+
+.info p {
+  text-align: center;
+}
+
+.beige {
+  background-color: #ddb9a3;
+  color: white;
+  padding: 2%;
+}
+
+.info div {
+  width: 30%;
+  margin: 5% auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Footer */
+.bg-img {
+  background-image: url("assets/footer_img.jpg");
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+}
+
+footer {
+  background-color: #f9e7dc;
 }
